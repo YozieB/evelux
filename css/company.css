@@ -1,0 +1,258 @@
+.company {
+    padding-bottom: 154px;
+}
+
+.company-mainscreen {
+    background-image: url(../img/about/about-main.jpg);
+    min-height: 810px;
+    justify-content: start;
+    padding-bottom: 0;
+}
+
+.company-mainscreen-wrapper {
+    margin-top: 204px;
+    padding-left: 83px;
+    gap: 27px;
+}
+
+.company-mainscreen__text {
+    max-width: 570px;
+    padding-left: 32px;
+}
+
+.company__about {
+    margin-top: 98px;
+    box-sizing: border-box;
+    padding-top: 92px;
+    background-color: #202121;
+    display: flex;
+    padding-right: 43px;
+    padding-bottom: 93px;
+    gap: 0 10px;
+}
+
+.company__about-title {
+    padding-left: 82px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 60px;
+    flex-basis: 95%;
+}
+
+.company__about-list {
+    /* max-width: 350px; */
+    padding-top: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0;
+    width: 100%;
+}
+
+.company .warranty__bottom-title {
+    margin-bottom: 36px;
+}
+
+.company__about-list-item {
+    padding-left: 30px;
+    display: flex;
+    align-items: baseline;
+    gap: 0 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.company__about-list-item-dot {
+    min-width: 8px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+}
+
+.company__text {
+    padding-top: 98px;
+    padding-bottom: 73px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0;
+}
+
+.company__text-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202121;
+}
+
+.company__text-descr {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 1000px;
+    letter-spacing: -0.02em;
+    color: #202121;
+}
+
+.company__text-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #202121;
+    max-width: 994px;
+}
+
+.company-bottom {
+    margin-bottom: 94px;
+}
+
+@media (max-width: 1350px) {
+    .company__about-wrapper {
+        padding-left: 18px;
+        padding-right: 18px;
+        width: auto;
+    }
+
+    .company__text {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .company__about-title {
+        padding-left: 40px;
+    }
+
+    .company__about {
+        padding-right: 10px;
+        padding-top: 42px;
+        padding-bottom: 66px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .company__about-title {
+        flex-basis: 63%;
+    }
+
+    .company__about-list-item {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .company__about-title {
+        font-size: 30px;
+        flex-basis: 55%;
+        line-height: 40px;
+        align-self: center;
+        min-width: fit-content;
+    }
+}
+
+@media (max-width: 1200px) {
+    .company__about-list {
+        gap: 20px 0;
+    }
+
+    .company__about-list-item {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .company__text {
+        padding-top: 44px;
+        gap: 12px 0;
+        padding-bottom: 67px;
+    }
+
+    .company-mainscreen-wrapper {
+        padding-left: 18px;
+        margin-top: 258px;
+    }
+
+    .company-mainscreen__text {
+        padding-left: 18px;
+    }
+
+    .company-mainscreen {
+        min-height: 744px;
+    }
+
+    .company__about {
+        margin-top: 32px;
+        flex-direction: column;
+        padding-left: 22px;
+        padding-bottom: 75px;
+        padding-right: 17px;
+    }
+
+    .company__about-title {
+        align-self: flex-start;
+        margin-bottom: 13px;
+        padding-left: 0;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .company__about-list-item {
+        gap: 0 17px;
+        padding-left: 0;
+    }
+
+    .company__text-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .company__text-descr {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+
+    .company__text-info {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .company-bottom {
+        margin-bottom: 36px;
+    }
+
+    .company {
+        padding-bottom: 52px;
+    }
+
+    .company .promo-about__descr {
+        margin-top: 13px;
+    }
+
+    .company-bottom {
+        max-width: 90%;
+    }
+
+    .company .promo-about {
+        padding-bottom: 622px;
+    }
+}
+
+@media (max-width: 425px) {
+    .company .warranty__bottom-title {
+        max-width: 265px;
+    }
+
+    .company-mainscreen-wrapper {
+        margin-top: 304px;
+        gap: 14px;
+    }
+
+    .company-mainscreen__text {
+        padding-left: 13px;
+    }
+}

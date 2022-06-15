@@ -1,0 +1,322 @@
+.warranty {
+    padding-bottom: 74px;
+}
+
+.warranty__title {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #202121;
+}
+
+.warranty__item {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0 32px;
+    background: #fff;
+    margin-bottom: 22px;
+}
+
+.warranty__info {
+    grid-column: 6 span;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px 0;
+    padding-left: 58px;
+}
+
+.warranty__info-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #202121;
+}
+
+.warranty__info-title {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    color: #202121;
+}
+
+.warranty__img {
+    grid-column: 6 span;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.warranty__bottom {
+    padding-top: 62px;
+    padding-left: 52px;
+    background: #fff;
+    padding-bottom: 77px;
+}
+
+.warranty__bottom-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #202121;
+    margin-bottom: 54px;
+}
+
+.warranty__form {
+    max-width: 716px;
+}
+
+.warranty__form-wrapper {
+    display: grid;
+    grid-template: repeat(1, 49px) auto / repeat(2, 1fr);
+    gap: 16px;
+}
+
+.warranty__input {
+    font-family: 'Stolzl';
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    background: none;
+    width: 100%;
+    height: 49px;
+    padding-left: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.8;
+}
+
+.warranty__input_tel {
+    user-select: none;
+}
+
+.warranty__input_tel::placeholder {
+    user-select: none;
+}
+
+.warranty__input_textarea {
+    grid-column: 1 / 3;
+    font-family: 'Stolzl';
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    background: none;
+    width: 100%;
+    height: 125px;
+    resize: none;
+    padding: 15px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.8;
+}
+
+.warranty__file {
+    display: block;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #202121;
+    padding-top: 33px;
+    padding-left: 30px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.warranty__file::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 19px;
+    background-image: url(../img/warranty/file.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.warranty__btn {
+    width: 100%;
+    max-width: 350px;
+    height: 50px;
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+    background: #999;
+    border: none;
+    transition: background .3s ease;
+    cursor: not-allowed;
+}
+
+.warranty__btn:hover {
+    background: #6F7070;
+}
+
+.warranty__btn_active {
+    background: #202121;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.warranty__data {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 632px;
+    color: #202121;
+    margin-top: 31px;
+}
+
+.warranty__data-link {
+    color: #999;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 1350px) {
+    .warranty__title {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .warranty__title {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .warranty__top {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .warranty__title {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .warranty__bottom-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .warranty__info-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .warranty__info-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .warranty__info {
+        padding-left: 50px;
+        padding-left: 38px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .warranty__title {
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .warranty__item {
+        gap: 30px 0;
+        background: transparent;
+        grid-template-columns: repeat(6, 1fr);
+        margin-bottom: 15px;
+    }
+
+    .warranty__info {
+        padding-left: 0;
+        order: 2;
+        gap: 12px 0;
+        justify-content: start;
+    }
+
+    .warranty__img {
+        width: 100%;
+    }
+
+    .warranty__info-title {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .warranty__info-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .warranty__bottom-title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 36px;
+    }
+    .warranty__bottom {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 43px;
+        padding-bottom: 42px;
+    }
+
+    .warranty__input {
+        grid-column: 2 span;
+    }
+
+    .warranty__form {
+        max-width: 100%;
+    }
+
+    .warranty__file {
+        padding-top: 27px;
+        padding-bottom: 28px;
+    }
+
+    .warranty__btn {
+        max-width: 100%;
+    }
+
+    .warranty__data {
+        max-width: 100%;
+        margin-top: 26px;
+    }
+    .warranty {
+        padding-bottom: 0;
+    }
+
+    .warranty__input_textarea {
+        height: 147px;
+    }
+
+    .warranty__file::before {
+        top: 47%;
+    }
+}
+
+@media (max-width: 425px) {
+    .warranty__bottom-title {
+        max-width: 250px;
+    }
+}

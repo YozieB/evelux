@@ -11,12 +11,6 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.1/nouislider.min.css">
 	<link rel="stylesheet" href="./fonts/stylesheet.css" />
-	<!-- 
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="./dist/jquery.pagepiling.css"
-    />-->
 	<link rel="stylesheet" href="./css/style.css" />
 	<link rel="stylesheet" href="./css/product.css" />
 	<link rel="stylesheet" href="./css/catalog.css" />
@@ -264,7 +258,7 @@
 							<div class="catalog-top-filter__name">Фильтр:</div>
 							<div class="catalog-top-filter__name catalog-top-filter__name_mobile">Фильтр</div>
 							<div class="catalog-top-filter__switches">
-								<div class="catalog-top-filter__toggle">
+<!-- 								<div class="catalog-top-filter__toggle">
 									<div class="catalog-top-filter__toggle-btn catalog-top-filter__rating catalog-top-filter__toggle-btn_active">
 										По популярности
 										<svg class="catalog-top-filter__toggle-btn-img" width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,6 +277,17 @@
 										</svg>
 									</div>
 									<div class="catalog-top-filter__toggle-btn catalog-top-filter__new">По новинкам</div>
+								</div> -->
+								<div class="catalog-top-filter__toggle">
+									<div class="select">
+										<input class="select__input" type="hidden" name="">
+										<div class="select__head">По популярности</div>
+										<ul class="select__list" style="display: none;">
+											<li class="select__item">По популярности</li>
+											<li class="select__item">По цене</li>
+											<li class="select__item">По новинкам</li>
+										</ul>
+									</div>
 								</div>
 								<div class="catalog-top-filter__view">
 									<svg class="catalog-top-filter__view-item catalog-top-filter__view-item_active"

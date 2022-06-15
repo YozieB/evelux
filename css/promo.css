@@ -60,7 +60,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 16px 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -333,6 +333,8 @@
         padding-left: 18px;
         padding-right: 18px;
         gap: 12px 0;
+        max-width: 100%;
+        width: auto;
     }
 
     .promo-mainscreen__title {
@@ -460,6 +462,11 @@
     .promo #product__tabs {
         white-space: nowrap;
         overflow-x: auto;
+        padding-bottom: 20px;
+    }
+
+    .promo .delivery__heading {
+        padding-bottom: 4px;
     }
 
     .promo-about {

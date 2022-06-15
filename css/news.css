@@ -26,7 +26,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     overflow: hidden;
 }
 
@@ -89,7 +89,6 @@
 }
 
 .news__item_white {
-    background: #fff;
     padding-bottom: 77px;
     border: 1px solid #E6EAEA;
 }

@@ -1,3 +1,7 @@
+AOS.init({
+    offset: -580
+});
+
 const tab = document.querySelectorAll('.promo__tab');
 const tabs = document.getElementById('product__tabs');
 const content = document.querySelectorAll('.product__content');
